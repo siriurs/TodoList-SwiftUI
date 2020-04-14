@@ -56,6 +56,15 @@ struct SATextField: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: WrappableTextField, context: UIViewRepresentableContext<SATextField>) {
+        if detailsShouldUpdateTitle {
+            uiView.becomeFirstResponder()
+            if editingMode {
+                uiView.text = editingTodo.title
+            } else {
+                uiView.text = ""
+            }
+            detailsShouldUpdateTitle = false
+        }
         uiView.setContentHuggingPriority(.defaultHigh, for: .vertical)
         uiView.setContentHuggingPriority(.defaultLow, for: .horizontal)
     }

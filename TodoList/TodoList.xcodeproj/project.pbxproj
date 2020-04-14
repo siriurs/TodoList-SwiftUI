@@ -19,6 +19,10 @@
 		38E0EB802445AE6600B58363 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB7A2445AE6600B58363 /* SATextField.swift */; };
 		38E0EB812445AE6600B58363 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB7B2445AE6600B58363 /* String+Timepiece.swift */; };
 		38E0EB822445AE6600B58363 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB7C2445AE6600B58363 /* DateComponents+Timepiece.swift */; };
+		38E0EB842445AF5D00B58363 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB832445AF5D00B58363 /* TodoItem.swift */; };
+		38E0EB862445B20700B58363 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB852445B20700B58363 /* Home.swift */; };
+		38E0EB8C2445F98D00B58363 /* Todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB8B2445F98D00B58363 /* Todolist.swift */; };
+		38E0EB8E2446028700B58363 /* TodoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB8D2446028700B58363 /* TodoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		38E0EB7A2445AE6600B58363 /* SATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
 		38E0EB7B2445AE6600B58363 /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
 		38E0EB7C2445AE6600B58363 /* DateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		38E0EB832445AF5D00B58363 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		38E0EB852445B20700B58363 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		38E0EB8B2445F98D00B58363 /* Todolist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todolist.swift; sourceTree = "<group>"; };
+		38E0EB8D2446028700B58363 /* TodoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 				38E0EB602445AC8D00B58363 /* LaunchScreen.storyboard */,
 				38E0EB632445AC8D00B58363 /* Info.plist */,
 				38E0EB5D2445AC8D00B58363 /* Preview Content */,
+				38E0EB832445AF5D00B58363 /* TodoItem.swift */,
+				38E0EB852445B20700B58363 /* Home.swift */,
+				38E0EB8B2445F98D00B58363 /* Todolist.swift */,
+				38E0EB8D2446028700B58363 /* TodoDetails.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -172,8 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E0EB842445AF5D00B58363 /* TodoItem.swift in Sources */,
+				38E0EB8E2446028700B58363 /* TodoDetails.swift in Sources */,
 				38E0EB812445AE6600B58363 /* String+Timepiece.swift in Sources */,
 				38E0EB7E2445AE6600B58363 /* Date+Timepiece.swift in Sources */,
+				38E0EB862445B20700B58363 /* Home.swift in Sources */,
 				38E0EB562445AC8C00B58363 /* AppDelegate.swift in Sources */,
 				38E0EB582445AC8C00B58363 /* SceneDelegate.swift in Sources */,
 				38E0EB5A2445AC8C00B58363 /* ContentView.swift in Sources */,
@@ -181,6 +196,7 @@
 				38E0EB802445AE6600B58363 /* SATextField.swift in Sources */,
 				38E0EB7D2445AE6600B58363 /* Date.swift in Sources */,
 				38E0EB7F2445AE6600B58363 /* Int+Timepiece.swift in Sources */,
+				38E0EB8C2445F98D00B58363 /* Todolist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xubolin.TodoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TodoList;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -344,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xubolin.TodoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TodoList;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
