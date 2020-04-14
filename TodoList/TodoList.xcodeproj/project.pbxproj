@@ -13,12 +13,12 @@
 		38E0EB5C2445AC8D00B58363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0EB5B2445AC8D00B58363 /* Assets.xcassets */; };
 		38E0EB5F2445AC8D00B58363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0EB5E2445AC8D00B58363 /* Preview Assets.xcassets */; };
 		38E0EB622445AC8D00B58363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0EB602445AC8D00B58363 /* LaunchScreen.storyboard */; };
-		38E0EB702445AD6F00B58363 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB6A2445AD6F00B58363 /* Date.swift */; };
-		38E0EB712445AD6F00B58363 /* Date+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB6B2445AD6F00B58363 /* Date+Timepiece.swift */; };
-		38E0EB722445AD6F00B58363 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB6C2445AD6F00B58363 /* Int+Timepiece.swift */; };
-		38E0EB732445AD6F00B58363 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB6D2445AD6F00B58363 /* SATextField.swift */; };
-		38E0EB742445AD6F00B58363 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB6E2445AD6F00B58363 /* String+Timepiece.swift */; };
-		38E0EB752445AD6F00B58363 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB6F2445AD6F00B58363 /* DateComponents+Timepiece.swift */; };
+		38E0EB7D2445AE6600B58363 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB772445AE6600B58363 /* Date.swift */; };
+		38E0EB7E2445AE6600B58363 /* Date+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB782445AE6600B58363 /* Date+Timepiece.swift */; };
+		38E0EB7F2445AE6600B58363 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB792445AE6600B58363 /* Int+Timepiece.swift */; };
+		38E0EB802445AE6600B58363 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB7A2445AE6600B58363 /* SATextField.swift */; };
+		38E0EB812445AE6600B58363 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB7B2445AE6600B58363 /* String+Timepiece.swift */; };
+		38E0EB822445AE6600B58363 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0EB7C2445AE6600B58363 /* DateComponents+Timepiece.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		38E0EB5E2445AC8D00B58363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38E0EB612445AC8D00B58363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E0EB632445AC8D00B58363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38E0EB6A2445AD6F00B58363 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		38E0EB6B2445AD6F00B58363 /* Date+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Timepiece.swift"; sourceTree = "<group>"; };
-		38E0EB6C2445AD6F00B58363 /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
-		38E0EB6D2445AD6F00B58363 /* SATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
-		38E0EB6E2445AD6F00B58363 /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
-		38E0EB6F2445AD6F00B58363 /* DateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		38E0EB772445AE6600B58363 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		38E0EB782445AE6600B58363 /* Date+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Timepiece.swift"; sourceTree = "<group>"; };
+		38E0EB792445AE6600B58363 /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		38E0EB7A2445AE6600B58363 /* SATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
+		38E0EB7B2445AE6600B58363 /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+		38E0EB7C2445AE6600B58363 /* DateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateComponents+Timepiece.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,6 @@
 		38E0EB492445AC8C00B58363 = {
 			isa = PBXGroup;
 			children = (
-				38E0EB692445AD6F00B58363 /* Third-Parties */,
 				38E0EB542445AC8C00B58363 /* TodoList */,
 				38E0EB532445AC8C00B58363 /* Products */,
 			);
@@ -69,6 +68,7 @@
 		38E0EB542445AC8C00B58363 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				38E0EB762445AE6600B58363 /* Third-Parties */,
 				38E0EB552445AC8C00B58363 /* AppDelegate.swift */,
 				38E0EB572445AC8C00B58363 /* SceneDelegate.swift */,
 				38E0EB592445AC8C00B58363 /* ContentView.swift */,
@@ -88,15 +88,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		38E0EB692445AD6F00B58363 /* Third-Parties */ = {
+		38E0EB762445AE6600B58363 /* Third-Parties */ = {
 			isa = PBXGroup;
 			children = (
-				38E0EB6A2445AD6F00B58363 /* Date.swift */,
-				38E0EB6B2445AD6F00B58363 /* Date+Timepiece.swift */,
-				38E0EB6C2445AD6F00B58363 /* Int+Timepiece.swift */,
-				38E0EB6D2445AD6F00B58363 /* SATextField.swift */,
-				38E0EB6E2445AD6F00B58363 /* String+Timepiece.swift */,
-				38E0EB6F2445AD6F00B58363 /* DateComponents+Timepiece.swift */,
+				38E0EB772445AE6600B58363 /* Date.swift */,
+				38E0EB782445AE6600B58363 /* Date+Timepiece.swift */,
+				38E0EB792445AE6600B58363 /* Int+Timepiece.swift */,
+				38E0EB7A2445AE6600B58363 /* SATextField.swift */,
+				38E0EB7B2445AE6600B58363 /* String+Timepiece.swift */,
+				38E0EB7C2445AE6600B58363 /* DateComponents+Timepiece.swift */,
 			);
 			path = "Third-Parties";
 			sourceTree = "<group>";
@@ -172,15 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E0EB742445AD6F00B58363 /* String+Timepiece.swift in Sources */,
-				38E0EB712445AD6F00B58363 /* Date+Timepiece.swift in Sources */,
+				38E0EB812445AE6600B58363 /* String+Timepiece.swift in Sources */,
+				38E0EB7E2445AE6600B58363 /* Date+Timepiece.swift in Sources */,
 				38E0EB562445AC8C00B58363 /* AppDelegate.swift in Sources */,
 				38E0EB582445AC8C00B58363 /* SceneDelegate.swift in Sources */,
 				38E0EB5A2445AC8C00B58363 /* ContentView.swift in Sources */,
-				38E0EB752445AD6F00B58363 /* DateComponents+Timepiece.swift in Sources */,
-				38E0EB732445AD6F00B58363 /* SATextField.swift in Sources */,
-				38E0EB702445AD6F00B58363 /* Date.swift in Sources */,
-				38E0EB722445AD6F00B58363 /* Int+Timepiece.swift in Sources */,
+				38E0EB822445AE6600B58363 /* DateComponents+Timepiece.swift in Sources */,
+				38E0EB802445AE6600B58363 /* SATextField.swift in Sources */,
+				38E0EB7D2445AE6600B58363 /* Date.swift in Sources */,
+				38E0EB7F2445AE6600B58363 /* Int+Timepiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
