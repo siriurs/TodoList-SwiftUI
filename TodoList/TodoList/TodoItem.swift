@@ -111,6 +111,7 @@ struct TodoItem: View {
         }
         .background(Color(self.checked ? "todoItem-bg-checked" : "todoItem-bg"))
         .animation(.spring())
+        
     }
 }
 
